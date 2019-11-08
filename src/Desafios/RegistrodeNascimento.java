@@ -8,11 +8,18 @@ public class RegistrodeNascimento {
 	private int gestacao;
 	private boolean uti;
 
-	public RegistrodeNascimento() {
+
+
+	public RegistrodeNascimento(String nome, String nomeMae, String sexo) {
 		super();
+		this.nome = nome;
+		this.nomeMae = nomeMae;
+		this.sexo = sexo;
 		this.gestacao = 9;
 		this.uti = false;
 	}
+
+
 
 	public String getNome() {
 		return nome;
